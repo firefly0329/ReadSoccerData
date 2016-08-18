@@ -9,3 +9,5 @@ memcached資料夾：實作memcached
 
 
 setDataToSQL資料夾：去http://www.228365365.com/sports.php要資料放到資料庫
+
+較舊的版本在repository GAME
