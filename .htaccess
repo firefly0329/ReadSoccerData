@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^api/list$   api/ResponseListAPI.php [nc,qsa]
+RewriteRule ^api/list/([0-9]+)$   api/ResponseSingleDataAPI.php?id=$1 [nc,qsa]

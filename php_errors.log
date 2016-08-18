@@ -1,0 +1,89 @@
+[18-Aug-2016 01:23:24 UTC] PHP Warning:  require_once(DatabasePDO.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/GAME/setDataToSQL/setDataToSQL.php on line 3
+[18-Aug-2016 01:23:24 UTC] PHP Stack trace:
+[18-Aug-2016 01:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/setDataToSQL/setDataToSQL.php:0
+[18-Aug-2016 01:23:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'DatabasePDO.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/GAME/setDataToSQL/setDataToSQL.php on line 3
+[18-Aug-2016 01:23:24 UTC] PHP Stack trace:
+[18-Aug-2016 01:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/setDataToSQL/setDataToSQL.php:0
+[18-Aug-2016 01:52:35 UTC] PHP Warning:  require_once(/GetDataMem.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 3
+[18-Aug-2016 01:52:35 UTC] PHP Stack trace:
+[18-Aug-2016 01:52:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 01:52:35 UTC] PHP Fatal error:  require_once(): Failed opening required '/GetDataMem.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 3
+[18-Aug-2016 01:52:35 UTC] PHP Stack trace:
+[18-Aug-2016 01:52:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 01:55:38 UTC] PHP Fatal error:  Class 'GetDataMem' not found in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 5
+[18-Aug-2016 01:55:38 UTC] PHP Stack trace:
+[18-Aug-2016 01:55:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 01:59:26 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 11
+[18-Aug-2016 01:59:26 UTC] PHP Stack trace:
+[18-Aug-2016 01:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 01:59:26 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:11
+[18-Aug-2016 01:59:59 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 11
+[18-Aug-2016 01:59:59 UTC] PHP Stack trace:
+[18-Aug-2016 01:59:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 01:59:59 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:11
+[18-Aug-2016 02:00:20 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 11
+[18-Aug-2016 02:00:20 UTC] PHP Stack trace:
+[18-Aug-2016 02:00:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 02:00:20 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:11
+[18-Aug-2016 02:02:10 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/GAME/memcached/memcachedGet.php on line 7
+[18-Aug-2016 02:02:10 UTC] PHP Stack trace:
+[18-Aug-2016 02:02:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:0
+[18-Aug-2016 02:02:10 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:7
+[18-Aug-2016 02:02:21 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/GAME/memcached/memcachedGet.php on line 7
+[18-Aug-2016 02:02:21 UTC] PHP Stack trace:
+[18-Aug-2016 02:02:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:0
+[18-Aug-2016 02:02:21 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:7
+[18-Aug-2016 02:03:20 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/GAME/memcached/memcachedGet.php on line 7
+[18-Aug-2016 02:03:20 UTC] PHP Stack trace:
+[18-Aug-2016 02:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:0
+[18-Aug-2016 02:03:20 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:7
+[18-Aug-2016 02:03:26 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/GAME/memcached/memcachedGet.php on line 7
+[18-Aug-2016 02:03:26 UTC] PHP Stack trace:
+[18-Aug-2016 02:03:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:0
+[18-Aug-2016 02:03:26 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:7
+[18-Aug-2016 02:03:51 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/GAME/memcached/memcachedGet.php on line 7
+[18-Aug-2016 02:03:51 UTC] PHP Stack trace:
+[18-Aug-2016 02:03:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:0
+[18-Aug-2016 02:03:51 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:7
+[18-Aug-2016 02:03:58 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/GAME/memcached/memcachedGet.php on line 7
+[18-Aug-2016 02:03:58 UTC] PHP Stack trace:
+[18-Aug-2016 02:03:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:0
+[18-Aug-2016 02:03:58 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:7
+[18-Aug-2016 02:04:36 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/GAME/memcached/memcachedGet.php on line 7
+[18-Aug-2016 02:04:36 UTC] PHP Stack trace:
+[18-Aug-2016 02:04:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:0
+[18-Aug-2016 02:04:36 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:7
+[18-Aug-2016 02:05:46 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 12
+[18-Aug-2016 02:05:46 UTC] PHP Stack trace:
+[18-Aug-2016 02:05:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 02:06:09 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 12
+[18-Aug-2016 02:06:09 UTC] PHP Stack trace:
+[18-Aug-2016 02:06:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 02:06:31 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 12
+[18-Aug-2016 02:06:31 UTC] PHP Stack trace:
+[18-Aug-2016 02:06:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 02:06:35 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 12
+[18-Aug-2016 02:06:35 UTC] PHP Stack trace:
+[18-Aug-2016 02:06:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 02:06:53 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/GAME/memcached/memcachedGet.php on line 7
+[18-Aug-2016 02:06:53 UTC] PHP Stack trace:
+[18-Aug-2016 02:06:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:0
+[18-Aug-2016 02:06:53 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedGet.php:7
+[18-Aug-2016 02:06:55 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 12
+[18-Aug-2016 02:06:55 UTC] PHP Stack trace:
+[18-Aug-2016 02:06:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 02:07:18 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 12
+[18-Aug-2016 02:07:18 UTC] PHP Stack trace:
+[18-Aug-2016 02:07:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 02:08:09 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 12
+[18-Aug-2016 02:08:09 UTC] PHP Stack trace:
+[18-Aug-2016 02:08:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 02:08:09 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:12
+[18-Aug-2016 02:08:25 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 12
+[18-Aug-2016 02:08:25 UTC] PHP Stack trace:
+[18-Aug-2016 02:08:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 02:08:25 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:12
+[18-Aug-2016 02:08:53 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/GAME/memcached/memcachedSet.php on line 12
+[18-Aug-2016 02:08:53 UTC] PHP Stack trace:
+[18-Aug-2016 02:08:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:0
+[18-Aug-2016 02:08:53 UTC] PHP   2. json_decode() /home/ubuntu/workspace/GAME/memcached/memcachedSet.php:12
